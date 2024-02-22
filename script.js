@@ -13,24 +13,23 @@ function setup() {
 function draw() {
   background(200);
 
-  // check to condition of the mouse
+  x = width/2;
+w = 100;
 if(mouseIsPressed){ // true or false?
-  // if true, change 
- x = width/2;
- w = 50;
- textFont("Impact");
- textSize(45);
-  text("Your Daddy", 20, 160);
+textFont("Verdana");
+textSize(12);
+  text("Your Momma", 20, 60);
 
 }
 else {
 
-// otherwise do this:
-x = width/2;
-w = 100;
-textFont("Verdana");
-textSize(12);
-  text("Your Momma", 20, 60);
+// check to condition of the mouse
+  // if true, change 
+ x = width/4;
+ w = 50;
+ textFont("Impact");
+ textSize(45);
+  text("Your Daddy", 20, 160);
   }
 
 }
